@@ -1,6 +1,10 @@
 # Shiny Reverse Correlation: Sampling for Subgroup CIs
 
-## Shiny app: https://olivethree.shinyapps.io/shinyRC_subgroup_cis/
+**Shiny app**: <https://olivethree.shinyapps.io/shinyRC_subgroup_cis/>
+
+**Citation:**
+
+-   Oliveira, M. (2023). Shiny Reverse Correlation: Sampling for subgroup CI generation. R Shiny application (Version 0.1), <http://olivethree.shinyapps.io/shinyRC_subgroup_cis>
 
 ## Overview
 
@@ -26,7 +30,7 @@ This app facilitates the creation of random subsets of individual classification
 
 6.  The action above also generates a file similar to the one you uploaded, that you can use to generate the subgroup CIs using the rcicr package. Click on the 'Download data to generate subgroup CIs' button to get this file.
 
-7.  You may now read this file in a R script and use it to generate the subgroup CIs. Feel free to use the suggested code below :) 
+7.  You may now read this file in a R script and use it to generate the subgroup CIs. Feel free to use the suggested code below :)
 
 ```{r}
 # # Libraries
