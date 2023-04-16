@@ -21,8 +21,8 @@ ui <- fluidPage(
   
   # App title
   titlePanel("Shiny Reverse Correlation: Sampling for Subgroup CI generation", 
-             windowTitle = "ShinyRC: Subgroup CI Generation"),
-  
+             windowTitle = "ShinyRC: Subgroup CI Sampling"),
+
   # Side bars
   sidebarLayout(
     sidebarPanel(
@@ -64,11 +64,16 @@ ui <- fluidPage(
       shiny::br(),
       
       # Download result
-      downloadButton('downloadData',"Download data to generate subgroup CIs"),
+      downloadButton('downloadData',"Download data to generate subgroup CIs")
+      
     ),
     
     mainPanel(
-      tableOutput("subgroupcitable")
+      tableOutput("subgroupcitable"),
+      shiny::br(),
+      shiny::br(),
+      shiny::p("Citation:"),
+      tags$div(HTML("<p>Oliveira, M. (2023). Shiny Reverse Correlation: Sampling for subgroup CI generation. R Shiny application (Version 0.1), <a href='http://olivethree.shinyapps.io/shinyRC_subgroup_cis'>http://olivethree.shinyapps.io/shinyRC_subgroup_cis</a></p>")),
     )
     
   ))
