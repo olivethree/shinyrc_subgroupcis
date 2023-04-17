@@ -14,11 +14,11 @@ This app facilitates the creation of random subsets of individual classification
 
 1.  Upload CSV file containing your RC task response data. This file must have three columns:
 
-    1.  Column entitled 'subject': contains the unique identifier for the participant (e.g. 1, 2, 3, etc.)
+    1.  Column 'subject': contains the unique identifier for the participant (e.g. 1, 2, 3, etc.)
 
-    2.  Column entitled 'stimulus': contains information about which trial the response corresponds to
+    2.  Column 'stimulus': contains information about which trial the response corresponds to
 
-    3.  Column entitled 'response': contains responses in each trial
+    3.  Column 'response': contains responses in each trial
 
 2.  Select the size of the subset of individual CIs to generate each subgroup CI in terms of % of the total amount of participants / individual CIs. There are three options: 25%, 50%, or 75% of all individual CIs. **Note**: 100% is not included, as that would simply be the group CI using all of individual CIs.
 
@@ -26,7 +26,7 @@ This app facilitates the creation of random subsets of individual classification
 
 4.  Set a seed for reproducibility of sampling results. The default seed is set to 42. You can use the default, or change to any other number you wish. It does not matter what exact number you use. All you need to know is that the same seed number will generate the same (pseudo-)random sampling process, meaning that any other person using the same seed number you used will obtain the same results as you did.
 
-5.  Click Generate sample to get your results.
+5.  Click 'Generate sample' to get your results.
 
 6.  The action above also generates a file similar to the one you uploaded, that you can use to generate the subgroup CIs using the rcicr package. Click on the 'Download data to generate subgroup CIs' button to get this file.
 
@@ -98,7 +98,7 @@ The second-phase typically involves asking a different group of participants to 
 
 However, Cone and colleagues called attention to the fact that evaluating a single group CI is not ideal, as it does not reflect all the individual variation that there was in people's results in the first phase.
 
-**Introducing...Shiny RC: Sampling Subgroup CIs!**
+**Introducing Shiny RC: Sampling Subgroup CIs**
 
 An approach to overcome this limitation in phase two is to generate, not one, but multiple 'subgroup CIs' from all the individual CIs of the same condition (i.e. created for the same concept). To do so, one needs to randomly sample subsets of individual CIs to generate these 'sub' group CIs. This is where this app come in handy, it allows you to quickly sample random subsets of individual CIs, and generates a file that you can easily use to generate the subgroup CIs using the R package rcicr (Dotch, 2016).
 
