@@ -100,7 +100,7 @@ However, Cone and colleagues called attention to the fact that evaluating a sing
 
 **Introducing Shiny RC: Sampling Subgroup CIs**
 
-An approach to overcome this limitation in phase two is to generate, not one, but multiple 'subgroup CIs' from all the individual CIs of the same condition (i.e. created for the same concept). To do so, one needs to randomly sample subsets of individual CIs to generate these 'sub' group CIs. This is where this app come in handy, it allows you to quickly sample random subsets of individual CIs, and generates a file that you can easily use to generate the subgroup CIs using the R package rcicr (Dotch, 2016).
+An approach to overcome this limitation in phase two is to generate, not one, but multiple 'subgroup CIs' from all the individual CIs of the same condition (i.e. created for the same concept). To do so, one needs to randomly sample subsets of individual CIs to generate these 'sub' group CIs. This is where this app come in handy, it allows you to quickly sample random subsets of individual CIs, and generates a file that you can easily use to generate the subgroup CIs using the R package rcicr (Dotsch, 2016).
 
 # References
 
