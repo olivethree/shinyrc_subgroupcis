@@ -33,7 +33,7 @@ ui <- fluidPage(
                   accept = c(".csv", ".tsv"))
       ),
       
-      shiny::p("Note: Data must include columns named: 'subject', 'stimulus', and 'response'"),
+      shiny::p("Note: Data must include columns named: 'subject', 'trial', and 'response'"),
       
       shiny::h4("Subset size"),
       # Percentage of individual CIs to sample from all CIs for each sub group-CI 

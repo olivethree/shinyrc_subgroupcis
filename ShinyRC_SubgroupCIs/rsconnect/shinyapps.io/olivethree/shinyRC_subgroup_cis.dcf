@@ -1,0 +1,13 @@
+name: shinyRC_subgroup_cis
+title: shinyRC_subgroup_cis
+username:
+account: olivethree
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8867235
+bundleId: 7096797
+url: https://olivethree.shinyapps.io/shinyRC_subgroup_cis/
+when: 1681682434.36485
+lastSyncTime: 1681682434.36487
+asMultiple: FALSE
+asStatic: FALSE
